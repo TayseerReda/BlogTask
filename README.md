@@ -65,7 +65,7 @@ This API uses Laravel Sanctum for authentication.
 curl -X POST \
   http://127.0.0.1:8000/api/register \
   -H "Content-Type: application/json" \
-  -d '{"name": "John Doe", "email": "john@example.com", "password": "password"}'
+  -d '{"name": "Tayseer", "email": "tayseer@gmail.com", "password": "123456789"}'
 ```
 
 ### 🔹 Authenticate & Get Token
@@ -73,7 +73,7 @@ curl -X POST \
 curl -X POST \
   http://127.0.0.1:8000/api/login \
   -H "Content-Type: application/json" \
-  -d '{"email": "john@example.com", "password": "password"}'
+  -d '{ "email": "tayseer@gmail.com", "password": "123456789"}'
 ```
 
 ### 🔹 Fetch All Posts (Authenticated)
